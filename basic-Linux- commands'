@@ -1,0 +1,25 @@
+pwd
+mkdir
+ls
+ls -larth
+cp
+mv
+cd 
+cd ..
+cd ../..
+cd ~
+
+file structure
+
+/
+/home
+/bin
+/sbin
+/boot
+/var
+/etc
+/opt
+
+
+
+
