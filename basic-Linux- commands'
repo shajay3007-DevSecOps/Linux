@@ -12,13 +12,20 @@ cd ~
 file structure
 
 /
+/bin --- command program for commands like ls ,cp etc,. are present in this directory.
+/sbin --- system level programs like shutdown, reboot, etc.,
+/boot -- booting releated data.
+/dev --- device parts
+/etc  --- configuration 
 /home
-/bin
-/sbin
-/boot
-/var
-/etc
-/opt
+/lib, /lib64
+/media ---external divices or mounts (automatically mount) 
+/mnt -- manual mount
+proc, sys, users
+/opt -- third party softwares
+/tmp -- temparary
+/var -- logs
+
 
 
 
