@@ -1,0 +1,10 @@
+Vi/vim editor:
+i ==> insert mode before cursor
+a ==> insert mode after cursor
+
+gg ==> Go to beginning of the file.
+G ==> Go to the end of the file.
+0==> Move to the beggining of the Current line.
+$ ==> Move to the end of the Current Line.
+w ==> Move to the beginning of the next word.
+b ==> Move back to the beginning of the next word.
