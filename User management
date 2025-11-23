@@ -28,4 +28,15 @@ by defult it will create group for every user creation.
 -G ==> is for Group
 -g ==> used for changing primary group.  == but it is not a best practice.
 # sudo gpasswd -d user1 g1 ==> remove user from group.
+LOCK and UNLOCKING the Account:
+Senario:  
+  A person coming to company to work on contract basis, from  
+1 - 10 days he worked [UNLOCK]
+11-20 days he is on veccation. [LOCK]
+22-30 days again started working.[UNLOCK]
+when ever we needed we can unlock the account.
+#sudo usermod -L user2 [LOCK]
+#sudo usermod -U user2 [UNLOCK]
+
+
 
