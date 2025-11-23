@@ -1,4 +1,12 @@
 User managment:
-useradd: 
-adduser:
+adduser: it is a Interactive and user friendly. Best when we use to create user manually
+It will ask:
+Full name
+==> Password
+==> Phone
+==> Room number
+
+useradd:  it is a Non-Interactive and Non-user friendly. Best when we use to create user with script.
+==> No manual input
+==> Suitable for automation and CI/CD processes
 
