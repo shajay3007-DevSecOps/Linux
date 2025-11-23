@@ -28,6 +28,10 @@ by defult it will create group for every user creation.
 -G ==> is for Group
 -g ==> used for changing primary group.  == but it is not a best practice.
 # sudo gpasswd -d user1 g1 ==> remove user from group.
+#sudo usermod -aG g1,g2,g3,g4,g5 user2
+#groups user2
+#sudo deluser --remove-home user2
+
 LOCK and UNLOCKING the Account:
 Senario:  
   A person coming to company to work on contract basis, from  
@@ -37,6 +41,7 @@ Senario:
 when ever we needed we can unlock the account.
 #sudo usermod -L user2 [LOCK]
 #sudo usermod -U user2 [UNLOCK]
+
 
 
 
