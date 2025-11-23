@@ -1,0 +1,12 @@
+Note: Keep secure the private key. Once you lost the private key you cannot genarate.
+In AWS and AZ we have options.
+
+AZ:
+  we need to access using UI and change the password.
+AWS:
+  option-1:
+      ec2-1 we have to detach the volume for Key be (ec2-10) lost, attach it to ec2-2 with is and change the pub key of in the authorized_key. and Re-attach it to the ec2-1.
+  option-2:
+      create a AMI for the machine, and create a new machine, using same Image and change the keypair.
+
+ssh-keygen -t rsa -b 4096 -C "Ajay"  ==> to genearate pub and pvt key.
