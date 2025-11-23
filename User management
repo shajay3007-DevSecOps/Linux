@@ -10,3 +10,22 @@ useradd:  it is a Non-Interactive and Non-user friendly. Best when we use to cre
 ==> No manual input
 ==> Suitable for automation and CI/CD processes
 
+# sudo adduser user1
+# sudo useradd user2
+# sudo cat /etc/passwd
+# su - user1
+# su - uder2
+# deluser user1
+
+Add user to Groups:
+# sudo addgroup g1
+# sudo usermod -aG g1 user1
+# groups
+# sudo passwd -e user1 ==> first login password reset.
+# sudo usermod -aG g1 user1
+by defult it will create group for every user creation.
+-a ==> is for append
+-G ==> is for Group
+-g ==> used for changing primary group.  == but it is not a best practice.
+# sudo gpasswd -d user1 g1 ==> remove user from group.
+
