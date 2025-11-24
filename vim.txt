@@ -1,10 +1,82 @@
 Vi/vim editor:
 i ==> insert mode before cursor
 a ==> insert mode after cursor
-
+----------------------------------------
+Movement (Navigation)
+h → Left
+j → Down
+k → Up
+l → Right
+0 → Go to beginning of line
+$ → Go to end of line
+gg → Jump to first line
+G → Jump to last line
+Ctrl + f → Page down (forward)
+Ctrl + b → Page up (backward)
+-------------------------------------
 gg ==> Go to beginning of the file.
 G ==> Go to the end of the file.
 0==> Move to the beggining of the Current line.
 $ ==> Move to the end of the Current Line.
 w ==> Move to the beginning of the next word.
 b ==> Move back to the beginning of the next word.
+-----------------------------------------
+Vim Modes
+i → Insert mode (start editing)
+Esc → Exit to command mode
+v → Visual mode (select text)
+V → Visual line mode
+------------------------------
+File Operations
+:w → Save file
+:q → Quit
+:wq → Save and quit
+:q! → Quit without saving
+:x → Same as :wq
+-----------------------------------
+Undo / Redo
+u → Undo last change
+Ctrl + r → Redo
+------------------------------
+Cut, Copy, Paste
+yy → Copy (yank) current line
+dd → Cut (delete) current line
+p → Paste below
+P → Paste above
+---------------------
+Deleting Text
+x → Delete a character
+dw → Delete a word
+d$ → Delete till end of line
+d0 → Delete till beginning of line
+------------------------------------
+Search
+/word → Search forward for word
+?word → Search backward
+n → Next result
+N → Previous result
+--------------------------------
+Search & Replace
+:%s/old/new/g → Replace all in file
+:s/old/new/g → Replace in current line
+------------------------------------
+Insert Mode Shortcuts
+i → Insert before cursor
+a → Insert after cursor
+o → Open new line below
+O → Open new line above
+--------------------------------
+Line Operations
+J → Join current line with next line
+>> → Indent line right
+<< → Indent line left
+-------------------------------------
+Help
+:help → Vim help
+:help keyword → Help for specific command
+---------------------------------
+
+
+
+
+
